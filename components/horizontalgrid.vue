@@ -17,8 +17,8 @@
                 <img :src="detail.snippet.thumbnails.high.url" class="thumbnail" :alt="detail.snippet.title">
                 <div class="content">
                     <div class="info">
-                        <h4 class="title">{{ detail.snippet.title }}</h4>
-                        <p class="channel-name">{{ detail.snippet.channelTitle }}</p>
+                        <h4 class="title font-medium text-sm text-green-500">{{ detail.snippet.title }}</h4>
+                        <p class="channel-name font-extralight text-xs text-green-200">{{ detail.snippet.channelTitle }}</p>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,9 @@ export default {
         return {
             alldetails: [],
             details: [],
-            api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
+            // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
+            api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
+
             channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",
 
         }
@@ -47,10 +49,12 @@ export default {
                 part: 'snippet',
                 maxResults: 6,
             })
-        ).then(response => response.json())
+        )
+        .then(response => response.json())
         .then(data => {
             this.details = data.items;
         })
+        .catch(err => console.log(err));
     }
 }
 
@@ -70,8 +74,6 @@ export default {
         display: none;
     }
 
-
-
     .thumbnail {
         min-width: 17.5rem;
         height: 9rem;
@@ -86,7 +88,6 @@ export default {
 
     .content {
         width: 100%;
-        height: 100px;
         padding: 10px;
         display: flex;
     }
@@ -98,15 +99,10 @@ export default {
 
     .title {
         width: 100%;
-        max-height: 40px;
-        color: #cae962;
-        font-size: 14px;
         overflow: hidden;
     }
 
     .channel-name {
-        font-size: 12px;
         margin: 2px 0;
-        color: rgba(202, 233, 98, 0.5);
     }
 </style>
