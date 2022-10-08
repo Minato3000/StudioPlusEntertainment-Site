@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1 class="
+            main-title
             inline-block 
             px-4 py-2
             ml-10 my-6
@@ -10,20 +11,28 @@
             text-lg md:text-2xl 
             font-semibold
             capitalize 
-            ">popular videos</h1>
-
-        <div class="horizontal-grid">
-            <div class="m-5"  v-for="detail in details">
+        ">popular videos</h1>
+        <div class="
+            horizontal-grid 
+            h-auto 
+            px-5
+            flex
+            items-center 
+            overflow-x-auto
+            overflow-y-hidden           
+            ">
+            <div class="m-5 hover:cursor-pointer" v-for="detail in details">
                 <img :src="detail.snippet.thumbnails.high.url" class="thumbnail" :alt="detail.snippet.title">
-                <div class="content">
-                    <div class="info">
-                        <h4 class="title font-medium text-sm text-green-500">{{ detail.snippet.title }}</h4>
-                        <p class="channel-name font-extralight text-xs text-green-200">{{ detail.snippet.channelTitle }}</p>
+                <div class="content w-full p-2 flex">
+                    <div class="info flex flex-col">
+                        <h4 class="title w-full h-10 font-medium text-sm text-green-500 overflow-hidden">{{
+                        detail.snippet.title }}</h4>
+                        <p class="channel-name my-1 font-extralight text-xs text-green-200">{{
+                        detail.snippet.channelTitle }}</p>
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
 </template>
 
@@ -34,7 +43,7 @@ export default {
             alldetails: [],
             details: [],
             // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
-            api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
+            //api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
 
             channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",
 
@@ -61,15 +70,6 @@ export default {
 </script>
 
 <style scoped>
-    .horizontal-grid {
-        height: auto;
-        padding: 0 20px;
-        display: flex;
-        align-items: center;
-        overflow-x: auto;
-        overflow-y: hidden;
-    }
-
     .horizontal-grid::-webkit-scrollbar {
         display: none;
     }
@@ -86,23 +86,9 @@ export default {
         transform: scale(1.1);
     }
 
-    .content {
-        width: 100%;
-        padding: 10px;
-        display: flex;
-    }
-
-    .info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .title {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .channel-name {
-        margin: 2px 0;
+    .main-title {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+            rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+            rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     }
 </style>

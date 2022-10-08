@@ -17,6 +17,8 @@
                 <h4 class="
                     info-title
                     text-green-100
+                    hover:text-green-500
+                    hover:cursor-pointer
                     capitalize
                     text-xl
                     md:text-3xl
