@@ -6,13 +6,14 @@
             ml-10 my-6
             bg-green-200 
             rounded-3xl
-            text-green-700 text-2xl 
+            text-green-700 
+            text-lg md:text-2xl 
             font-semibold
             capitalize 
             ">popular videos</h1>
 
         <div class="horizontal-grid">
-            <div class="video"  v-for="detail in details">
+            <div class="m-5"  v-for="detail in details">
                 <img :src="detail.snippet.thumbnails.high.url" class="thumbnail" :alt="detail.snippet.title">
                 <div class="content">
                     <div class="info">
@@ -44,12 +45,11 @@ export default {
                 channelId: this.channel_id,
                 order: 'viewCount',
                 part: 'snippet',
-                maxResults: 2,
+                maxResults: 6,
             })
         ).then(response => response.json())
         .then(data => {
             this.details = data.items;
-            console.log(this.details)
         })
     }
 }
@@ -58,7 +58,6 @@ export default {
 
 <style scoped>
     .horizontal-grid {
-        width: 100%;
         height: auto;
         padding: 0 20px;
         display: flex;
@@ -71,15 +70,11 @@ export default {
         display: none;
     }
 
-    .video {
-        height: 250px;
-        cursor: pointer;
-        margin: 20px;
-    }
+
 
     .thumbnail {
-        width: 280px;
-        height: 150px;
+        min-width: 17.5rem;
+        height: 9rem;
         object-fit: cover;
         border-radius: 4px;
         transition: transform 400ms cubic-bezier(0.075, 0.82, 0.165, 1);

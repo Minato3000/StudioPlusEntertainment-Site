@@ -4,26 +4,32 @@
             w-screen
             opacity-70
         ">
-        <div class="channel-details flex justify-center items-center py-4">
+        <div class="channel-details flex justify-center items-center py-4 mx-auto">
             <img src="../static/images/entertainment_dp.jpg" alt="channel icon" class="
+                w-16
+                md:w-20
                 channel-dp
                 rounded-[50%]
-                mr-12
+                mr-6
+                md:mr-12
             ">
             <div class="info">
                 <h4 class="
                     info-title
                     text-green-100
                     capitalize
-                    text-3xl
+                    text-xl
+                    md:text-3xl
                     font-bold
-                    tracking-widest
+                    tracking-wide
+                    md:tracking-widest
                 ">studio plus entertainment</h4>
                 <p class="
                     info-extra
                     text-green-100
                     capitalize
-                    text-lg
+                    text-md
+                    md:text-lg
                 ">99999 subscribers</p>
             </div>
         </div>
