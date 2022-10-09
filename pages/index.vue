@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-900">
     <Header />
-    <Homecontent :title="title"/>
-    <Footer />
+    <Homecontent />
+    <Footer :title="title"/>
   </div>
 </template>
 
