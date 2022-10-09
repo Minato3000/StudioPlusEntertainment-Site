@@ -38,14 +38,17 @@
 
 <script>
 export default {
+    props: {
+        channel_id: {
+            required: true,
+        }
+    },
     data() {
         return {
             alldetails: [],
             details: [],
             // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
-             api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
-
-            channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",
+            api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
 
         }
     },

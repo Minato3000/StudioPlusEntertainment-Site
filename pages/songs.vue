@@ -1,9 +1,9 @@
 <template>
     <div class="bg-gray-900">
         <Header />
-        <Banner v-bind:title="title"/>
+        <Banner v-bind:title="title" />
         <Horizontalgrid v-bind:channel_id="channel_id" />
-        <Verticalgrid v-bind:channel_id="channel_id"/>
+        <Verticalgrid v-bind:channel_id="channel_id" />
         <Footer v-bind:title="title"/>
     </div>
 </template>
@@ -26,8 +26,9 @@ export default {
     },
     data() {
         return {
-            channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",
-            title: "studio plus entertainment",
+            channel_id: "UCiCR5fA6-Vk_RX8wgc9po2Q",
+            title: "music studio",
+            channel_dp: "~/static/images/musicstudio_dp.jpg",
         }
     }
 }

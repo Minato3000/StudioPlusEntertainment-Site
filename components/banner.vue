@@ -5,14 +5,14 @@
             opacity-70
         ">
         <div class="channel-details flex justify-center items-center py-4 mx-auto">
-            <img src="../static/images/entertainment_dp.jpg" alt="channel icon" class="
+            <img :src="channel_dp" alt="channel icon" class="
                 w-16
                 md:w-20
                 channel-dp
                 rounded-[50%]
                 mr-6
                 md:mr-12
-            ">
+            " id="thumbnail">
             <div class="info">
                 <h4 class="
                     info-title
@@ -25,7 +25,7 @@
                     font-bold
                     tracking-wide
                     md:tracking-widest
-                ">studio plus entertainment</h4>
+                ">{{ title }}</h4>
                 <p class="
                     info-extra
                     text-green-100
@@ -40,10 +40,26 @@
 
 <script>
 
+    export default {
+        props: {
+            title: {
+                required: true,
+            },
+            channel_dp: {
+                String,
+                required: true,
+            }
+        }
+    }
+
 </script>
 
 <style scoped>
-.channel-dp {
+    #thumbnail {
+        src: url(channel_dp);
+    }
+
+    .channel-dp {
         box-shadow: -6px 6px 8px black;
     }
 
