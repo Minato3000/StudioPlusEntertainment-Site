@@ -5,14 +5,14 @@
             opacity-70
         ">
         <div class="channel-details flex justify-center items-center py-4 mx-auto">
-            <img :src="channel_dp" alt="channel icon" class="
+            <img src="../static/images/divinestudio_dp.jpg" alt="channel icon" class="
                 w-16
                 md:w-20
                 channel-dp
                 rounded-[50%]
                 mr-6
                 md:mr-12
-            " id="thumbnail">
+            ">
             <div class="info">
                 <h4 class="
                     info-title
@@ -55,11 +55,7 @@
 </script>
 
 <style scoped>
-    #thumbnail {
-        src: url(channel_dp);
-    }
-
-    .channel-dp {
+.channel-dp {
         box-shadow: -6px 6px 8px black;
     }
 

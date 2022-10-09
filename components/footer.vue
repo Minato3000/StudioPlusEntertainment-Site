@@ -2,11 +2,7 @@
 <footer class="text-center lg:text-left bg-gradient-to-t from-green-500 to-emerald-500 text-black" id="footer">
     <div class="flex justify-center items-center text-center p-6 border-b border-green-600">
       <div class="flex align-center text-center inline-block">
-<<<<<<< HEAD
         <h4 class="inline-block capitalize text-2xl md:text-3xl font-bold hover:cursor-pointer tracking-wide md:tracking-widest">{{ title }}</h4>
-=======
-        <h4 class="inline-block capitalize text-2xl md:text-3xl font-bold hover:cursor-pointer tracking-wide md:tracking-widest">STUDIO PLUS ENTERTAINMENT</h4>
->>>>>>> 651a89c9d0b5d810b13f6b838de4fb35527b8f43
       </div>
     </div>
     <div class="mx-6 py-10 text-center md:text-left">
@@ -30,14 +26,9 @@
             Studio Plus Entertainment is a Upcoming Production Company & Digital Media Company which brings in more content from Indian Movies. Watch Full Length Old And New Movies, Comedy , Scenes , Music & Devotional Content.
           </p>
         </div>
-<<<<<<< HEAD
 
         <div class="md:mx-auto lg:mx-0">
           <h6 class="uppercase font-bold mb-4 flex justify-center md:justify-start">
-=======
-        <div class="">
-          <h6 class="uppercase font-semibold mb-4 flex text-xl justify-center md:justify-start">
->>>>>>> 651a89c9d0b5d810b13f6b838de4fb35527b8f43
             channels
           </h6>
           <p class="mb-2">
@@ -61,11 +52,7 @@
         </div>
 
         <div class="md:col-span-2 lg:col-span-1 md:mx-auto lg:mx-0">
-<<<<<<< HEAD
           <h6 class="uppercase font-bold mb-4 flex justify-center lg:justify-start">
-=======
-          <h6 class="uppercase font-semibold mb-4 flex text-xl justify-center lg:justify-start">
->>>>>>> 651a89c9d0b5d810b13f6b838de4fb35527b8f43
             contact
           </h6>
           <a href="https://www.facebook.com/profile.php?id=100084930345733" class="mr-6 text-black">
