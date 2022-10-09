@@ -8,7 +8,7 @@
             mr-auto
             bg-green-200 
             rounded-3xl
-            text-green-700 
+            text-green-900 
             text-lg md:text-2xl 
             font-semibold
             capitalize 
