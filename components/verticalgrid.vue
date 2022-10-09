@@ -26,7 +26,11 @@
             overflow-y-auto           
             ">
             <div class="m-5 hover:cursor-pointer" v-for="detail in details">
-                <img :src="detail.snippet.thumbnails.high.url" class="thumbnail" :alt="detail.snippet.title">
+                <img :src="detail.snippet.thumbnails.high.url" class="
+                    thumbnail
+                    w-full
+                    "
+                    :alt="detail.snippet.title">
                 <div class="content w-full p-2 flex">
                     <div class="info flex flex-col">
                         <h4 class="title w-full h-10 font-medium text-sm text-green-500 overflow-hidden">{{ detail.snippet.title }}</h4>
@@ -81,7 +85,6 @@
     }
 
     .thumbnail {
-        min-width: 17.5rem;
         height: 9rem;
         object-fit: cover;
         border-radius: 4px;
