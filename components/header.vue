@@ -10,11 +10,10 @@
         md:px-40 
         z-10"
     >
-        <a href="/" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">home</a>
-        <a href="/movies" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">movies</a>
-        <a href="/songs" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">songs</a>
-        <a href="/devotional" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">devotional</a>
-        <a href="#footer" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">about us</a>
+        <a href="/" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">HOME</a>
+        <a href="/movies" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">MOVIES</a>
+        <a href="/songs" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">SONGS</a>
+        <a href="/devotional" class="links md:mr-10 text-md md:text-2xl capitalize md:tracking-wider text-green-100 hover:text-green-500">DEVOTIONAL</a>
     </nav>
 </template>
 
