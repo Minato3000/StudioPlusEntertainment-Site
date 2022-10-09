@@ -21,7 +21,8 @@
             overflow-x-auto
             overflow-y-hidden           
             ">
-            <div class="m-5 hover:cursor-pointer" v-for="detail in details">
+            <div class="m-5 hover:cursor-pointer" v-for="detail in details" :click="redirect(detail)">
+                <p>{{detail.id.videoId}}</p>
                 <img :src="detail.snippet.thumbnails.high.url" class="thumbnail" :alt="detail.snippet.title">
                 <div class="content w-full p-2 flex">
                     <div class="info flex flex-col">
@@ -51,6 +52,11 @@ export default {
             // api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
             api_key: "AIzaSyBIEWv1CI8xRwkfqVxJhv48edsuR-OjHiQ", // Another API key
 
+        }
+    },
+    methods: {
+        redirect: function(detail) {
+            window.location = "https://www.youtube.com/watch?v=" + detail.id.videoId;
         }
     },
     async fetch() {
