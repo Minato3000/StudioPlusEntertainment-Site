@@ -4,6 +4,7 @@
         <Banner />
         <Horizontalgrid />
         <Verticalgrid />
+        <Footer />
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from '~/components/header.vue';
 import Banner from '../components/banner.vue';
 import Horizontalgrid from '../components/horizontalgrid.vue';
 import Verticalgrid from '~/components/verticalgrid.vue';
+import Footer from '~/components/footer.vue';
 
 export default {
     name: "MoviesPage",
@@ -19,7 +21,8 @@ export default {
     Header,
     Banner,
     Horizontalgrid,
-    Verticalgrid
+    Verticalgrid,
+    Footer
 }
 }
 </script>

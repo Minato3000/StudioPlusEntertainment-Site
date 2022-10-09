@@ -42,8 +42,8 @@ export default {
         return {
             alldetails: [],
             details: [],
-            // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
-            //api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
+            api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
+            // api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
 
             channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",
 

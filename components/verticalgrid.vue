@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <button class="all-videos-btn py-2 px-5 text-green-700 bg-green-200 my-4">View more</button>
+        <button class="all-videos-btn py-2 px-5 text-green-700 bg-green-300 my-4 capitalize font-semibold">View more</button>
         </div>
     </div> 
 </template>
@@ -45,7 +45,7 @@
             return {
             alldetails: [],
             details: [],
-            // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",  // Another API key
+            api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",  // Another API key
             // api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
             // api_key: "AIzaSyBIEWv1CI8xRwkfqVxJhv48edsuR-OjHiQ", // Another API key
             channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",

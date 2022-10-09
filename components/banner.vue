@@ -43,13 +43,12 @@
 </script>
 
 <style scoped>
-
-    .channel-dp {
+.channel-dp {
         box-shadow: -6px 6px 8px black;
     }
 
     .info-title, .info-extra {
         text-shadow: -4px 4px 6px black;
+        transition: all 500ms cubic-bezier(0.23, 1.16, 0, 1);
     }
-
 </style>
