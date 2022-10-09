@@ -75,20 +75,20 @@ export default {
     }
 
     .horizontal-grid::-webkit-scrollbar-track {
-        background-color: #BAE6FD;/* #BBF7D0; */
+        background-color: #15803D; 
         margin: 2em 20vw;
         border-radius: 100vh;
     }
 
     .horizontal-grid::-webkit-scrollbar-thumb {
         height: 2rem;
-        border: 0.3em solid #BAE6FD;/*#BBF7D0;*/
+        border: 0.3em solid #15803D;
         border-radius: 100vh;
-        background-color: #0EA5E9;
+        background-color: #BBF7D0;
     }
 
     .horizontal-grid::-webkit-scrollbar-thumb:hover {
-        background-color: #0369A1;
+        background-color: #86EFAC;
     }
 
     .thumbnail {
