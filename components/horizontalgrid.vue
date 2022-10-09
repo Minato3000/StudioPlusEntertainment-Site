@@ -42,8 +42,8 @@ export default {
         return {
             alldetails: [],
             details: [],
-            api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
-            // api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
+            // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",
+             api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
 
             channel_id: "UCMHOIyUg_zfISaetTM0N_SQ",
 
@@ -70,8 +70,25 @@ export default {
 </script>
 
 <style scoped>
-    .horizontal-grid::-webkit-scrollbar {
-        display: none;
+.horizontal-grid::-webkit-scrollbar {
+        height: 1em;
+    }
+
+    .horizontal-grid::-webkit-scrollbar-track {
+        background-color: #BAE6FD;/* #BBF7D0; */
+        margin: 2em 20vw;
+        border-radius: 100vh;
+    }
+
+    .horizontal-grid::-webkit-scrollbar-thumb {
+        height: 2rem;
+        border: 0.3em solid #BAE6FD;/*#BBF7D0;*/
+        border-radius: 100vh;
+        background-color: #0EA5E9;
+    }
+
+    .horizontal-grid::-webkit-scrollbar-thumb:hover {
+        background-color: #0369A1;
     }
 
     .thumbnail {

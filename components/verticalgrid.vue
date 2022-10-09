@@ -19,8 +19,8 @@
             h-auto 
             px-2
             grid
-            grid-cols-1
-            md:grid-cols-3
+            grid-cols-1 grid-row-4
+            md:grid-cols-3 md:grid-row-auto
             lg:grid-cols-4
             overflow-x-hidden
             overflow-y-auto           
@@ -29,6 +29,7 @@
                 <img :src="detail.snippet.thumbnails.high.url" class="
                     thumbnail
                     w-full
+                    h-36
                     "
                     :alt="detail.snippet.title">
                 <div class="content w-full p-2 flex">
@@ -80,7 +81,7 @@
 
 
 <style scoped>
-.vertical-grid::-webkit-scrollbar {
+    .vertical-grid::-webkit-scrollbar {
         display: none;
     }
 

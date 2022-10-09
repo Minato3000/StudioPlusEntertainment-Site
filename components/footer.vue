@@ -7,7 +7,7 @@ Watch Full Length Old And New Movies, Comedy , Scenes , Music & Devotional Conte
 </div>
         <nav class="py-4">
             <a href="#instagram" 
-            class="links inline-block"><svg class="w-10 fill-pink-500 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            class="links inline-block"><svg class="w-10 fill-rose-500 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <title />
                 <g data-name="ig instagram insta photo" id="ig_instagram_insta_photo">
                     <path
