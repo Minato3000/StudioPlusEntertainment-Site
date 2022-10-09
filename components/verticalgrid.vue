@@ -57,9 +57,9 @@
             return {
             alldetails: [],
             details: [],
-            api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",  // Another API key
+            // api_key: "AIzaSyCkzCAGvVt7fKE_un1wHKvy2NLns86p3jQ",  // Another API key
             // api_key: "AIzaSyB6CbQR3WNUzTnuTg5iPvwNDfAqmdXjfII", // Another API key
-            // api_key: "AIzaSyBIEWv1CI8xRwkfqVxJhv48edsuR-OjHiQ", // Another API key
+            api_key: "AIzaSyBIEWv1CI8xRwkfqVxJhv48edsuR-OjHiQ", // Another API key
         }
     },
     async fetch() {
@@ -69,7 +69,7 @@
             channelId: this.channel_id,
             order: 'date',
             part: 'snippet',
-            maxResults: 6,
+            maxResults: 12,
         })
     )
         .then(response => response.json())

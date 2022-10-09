@@ -102,7 +102,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 .footer {
     box-shadow: 0rem -1rem 8rem -4rem #34D399 ;
 }
