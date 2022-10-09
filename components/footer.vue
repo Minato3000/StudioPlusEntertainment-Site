@@ -1,9 +1,13 @@
 <template>
     <div class="footer flex py-12 justify-center items-center flex-col bg-gradient-to-t from-green-500 to-emerald-500 text-center">
-        <h4 class="inline-block text-5xl font-black capitalize duration-300 text-green-700 hover:text-green-900 hover:cursor-pointer">studio plus entertainment</h4>
+        <h4 class="inline-block text-5xl font-black capitalize duration-300 text-green-900 hover:text-green-700 hover:cursor-pointer">studio plus entertainment</h4>
+        <div class="text-center mx-12 text-justify:inter-word">
+        <p>Studio Plus Entertainment is a Upcoming Production Company & Digital Media Company which brings in more content from Indian Movies.
+Watch Full Length Old And New Movies, Comedy , Scenes , Music & Devotional Content.</p>
+</div>
         <nav class="py-4">
             <a href="#instagram" 
-            class="links inline-block"><svg class="w-10 fill-green-200 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            class="links inline-block"><svg class="w-10 fill-pink-500 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <title />
                 <g data-name="ig instagram insta photo" id="ig_instagram_insta_photo">
                     <path
@@ -14,7 +18,7 @@
                 </g>
             </svg></a>
             <a href="#facebook"
-                class="links inline-block"><svg class="w-10 fill-green-200 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                class="links inline-block"><svg class="w-10 fill-blue-700 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <title />
                     <g data-name="facebook fb face book" id="facebook_fb_face_book">
                         <path
@@ -22,7 +26,7 @@
                     </g>
                 </svg></a>
             <a href="#youtube"
-                class="links inline-block"><svg class="w-10 fill-green-200 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                class="links inline-block"><svg class="w-10 fill-rose-600 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <title />
                     <g data-name="youtube youtuber video play" id="youtube_youtuber_video_play">
                         <path
@@ -32,7 +36,7 @@
                     </g>
                 </svg></a>
             <a href="#twitter"
-                class="links inline-block"><svg class="w-10 fill-green-200 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                class="links inline-block"><svg class="w-10 fill-cyan-800 hover:fill-emerald-900" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <title />
                     <g data-name="twitter bird social media trending" id="twitter_bird_social_media_trending">
                         <path

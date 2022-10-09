@@ -13,7 +13,6 @@
             font-semibold
             capitalize 
         ">all videos</h1>
-    <div class="text-center">
         <div class="
             vertical-grid 
             mx-4
@@ -34,6 +33,7 @@
                 </div>
             </div>
         </div>
+        <div class="text-center">
         <button class="all-videos-btn py-2 px-5 text-green-700 bg-green-300 my-4 capitalize font-semibold">View more</button>
         </div>
     </div> 
