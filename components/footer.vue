@@ -32,22 +32,22 @@
             channels
           </h6>
           <p class="mb-2">
-            <a href="#!" class="text-black-600"><u>Studio Plus Entertainment</u></a>
+            <a href="https://www.youtube.com/c/StudioPlusEntertainment" class="text-black-600"><u>Studio Plus Entertainment</u></a>
           </p>
           <p class="mb-2">
-            <a href="#!" class="text-black-600"><u>Movies Park</u></a>
+            <a href="https://www.youtube.com/channel/UCwSqxN64xIErNIB9QNMvQ9Q" class="text-black-600"><u>Movies Park</u></a>
           </p>
           <p class="mb-2">
-            <a href="#!" class="text-black-600"><u>Video Park</u></a>
+            <a href="https://www.youtube.com/channel/UCSz8cDJ3F48Ad9Eu3PD_YrA" class="text-black-600"><u>Video Park</u></a>
           </p>
           <p class="mb-2">
-            <a href="#!" class="text-black-600"><u>Music Studio</u></a>
+            <a href="https://www.youtube.com/channel/UCiCR5fA6-Vk_RX8wgc9po2Q" class="text-black-600"><u>Music Studio</u></a>
           </p>
           <p class="mb-2">
-            <a href="#!" class="text-black-600"><u>Divine Studio</u></a>
+            <a href="https://www.youtube.com/channel/UC5ii-vTHcftOIA39u0E99WA" class="text-black-600"><u>Divine Studio</u></a>
           </p>
           <p class="mb-2">
-            <a href="#!" class="text-black-600"><u>Meeka TV</u></a>
+            <a href="https://www.youtube.com/channel/UCdOHJnEku_1p8mR9tUpZdlw" class="text-black-600"><u>Meekaa TV</u></a>
           </p>
         </div>
 
@@ -80,6 +80,9 @@
             </path>
           </svg>
         </a>
+        <MDBBtn tag="a" color="primary" href="#!" style="background-color: rgb(237, 48, 47);">
+        <MDBIcon iconStyle="fab" icon="youtube"></MDBIcon>
+      </MDBBtn>
         </div>
       </div>
 

@@ -1,26 +1,26 @@
 <template>
     <div class="content flex justify-center items-start flex-col w-max mx-auto my-12 gap-6">
-        <a class="studioplus flex justify-center items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="/movies" class="studioplus flex justify-center items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/entertainment_dp.jpg" alt="" class="channeldp mr-8 w-24">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">studio plus entertainment</h4>
         </a>
-        <a class="musicstudio flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="/songs" class="musicstudio flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/musicstudio_dp.jpg" alt="" class="channeldp mr-8 w-24">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">music studio</h4>
         </a>
-        <a class="divinestudio flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="/devotional" class="divinestudio flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/divinestudio_dp.jpg" alt="" class="channeldp mr-8 w-24">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">divine studio</h4>
         </a>
-        <a class="moviespark flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="https://www.youtube.com/channel/UCwSqxN64xIErNIB9QNMvQ9Q" class="moviespark flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/moviespark_dp.jpg" alt="" class="channeldp mr-8 w-24">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">movies park</h4>
         </a>
-        <a class="videopark flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="https://www.youtube.com/channel/UCSz8cDJ3F48Ad9Eu3PD_YrA" class="videopark flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/videopark_dp.jpg" alt="" class="channeldp mr-8 w-24">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">video park</h4>
         </a>
-        <a class="meekaatv flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="https://www.youtube.com/channel/UCdOHJnEku_1p8mR9tUpZdlw" class="meekaatv flex justify-start items-center w-full bg-gray-800 p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/meekaatv_dp.jpg" alt="" class="channeldp mr-8 w-24">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">meeKaa TV</h4>
         </a>
