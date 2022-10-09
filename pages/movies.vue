@@ -1,10 +1,10 @@
 <template>
     <div class="bg-gray-900">
         <Header />
-        <Banner v-bind:title="title"/>
-        <Horizontalgrid v-bind:channel_id="channel_id" />
-        <Verticalgrid v-bind:channel_id="channel_id"/>
-        <Footer v-bind:title="title"/>
+        <Banner :title="title" :image-url="require('~/static/images/entertainment_dp.jpg')"/>
+        <Horizontalgrid :channel_id="channel_id" />
+        <Verticalgrid :channel_id="channel_id"/>
+        <Footer :title="title"/>
     </div>
 </template>
 
