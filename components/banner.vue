@@ -5,7 +5,7 @@
             opacity-70
         ">
         <div class="channel-details flex justify-center items-center py-4 mx-auto">
-            <img src="../static/images/divinestudio_dp.jpg" alt="channel icon" class="
+            <img :src="imageUrl" alt="channel icon" class="
                 w-16
                 md:w-20
                 channel-dp
@@ -43,11 +43,12 @@
     export default {
         props: {
             title: {
+                type: String,
                 required: true,
             },
-            channel_dp: {
-                String,
-                required: true,
+            imageUrl: {
+                type: String,
+                default: ''
             }
         }
     }
