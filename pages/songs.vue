@@ -1,9 +1,9 @@
 <template>
     <div class="bg-gray-900">
         <Header />
-        <Banner :title="title" :image-url="require('~/static/images/musicstudio_dp.jpg')"/>
+        <Banner :title="title" :channel_url="channel_url" :image-url="require('~/static/images/musicstudio_dp.jpg')"/>
         <Horizontalgrid :channel_id="channel_id" />
-        <Verticalgrid :channel_id="channel_id" />
+        <Verticalgrid :channel_id="channel_id" :channel_url="channel_url"/>
         <Footer :title="title"/>
     </div>
 </template>
@@ -27,6 +27,7 @@ export default {
     data() {
         return {
             channel_id: "UCiCR5fA6-Vk_RX8wgc9po2Q",
+            channel_url: "https://www.youtube.com/channel/UCRwPOGn9_gJY2Tx5x75-AeA",
             title: "music studio",
         }
     }

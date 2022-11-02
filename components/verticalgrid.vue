@@ -41,7 +41,9 @@
             </a>
         </div>
         <div class="text-center">
-        <button class="all-videos-btn py-2 px-5 text-green-700 bg-green-300 my-4 capitalize font-semibold">View more</button>
+        <a :href="channel_url" target="_blank">
+            <button class="all-videos-btn py-2 px-5 text-green-700 bg-green-300 my-4 capitalize font-semibold">View more</button>
+        </a>
         </div>
     </div> 
 </template>
@@ -50,6 +52,11 @@
     export default {
         props: {
             channel_id: {
+                type: String,
+                required: true,
+            },
+            channel_url: {
+                type: String,
                 required: true,
             }
         },

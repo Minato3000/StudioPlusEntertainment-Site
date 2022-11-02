@@ -1,9 +1,9 @@
 <template>
     <div class="bg-gray-900">
         <Header />
-        <Banner :title="title" :image-url="require('~/static/images/divinestudio_dp.jpg')"/>
+        <Banner :title="title" :channel_url="channel_url" :image-url="require('~/static/images/divinestudio_dp.jpg')"/>
         <Horizontalgrid :channel_id="channel_id" />
-        <Verticalgrid :channel_id="channel_id" />
+        <Verticalgrid :channel_id="channel_id" :channel_url="channel_url"/>
         <Footer :title="title"/>
     </div>
 </template>
@@ -27,6 +27,7 @@ export default {
     data() {
         return {
             channel_id: "UC5ii-vTHcftOIA39u0E99WA",
+            channel_url: "https://www.youtube.com/channel/UC5ii-vTHcftOIA39u0E99WA",
             title: "divine studio",
         }
     },

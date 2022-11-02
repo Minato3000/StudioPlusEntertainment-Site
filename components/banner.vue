@@ -14,7 +14,9 @@
                 md:mr-12
             ">
             <div class="info">
-                <h4 class="
+                <a :href="channel_url"
+                target="_blank"
+                class="
                     info-title
                     text-green-100
                     hover:text-green-500
@@ -25,7 +27,7 @@
                     font-bold
                     tracking-wide
                     md:tracking-widest
-                ">{{ title }}</h4>
+                ">{{ title }}</a>
             </div>
         </div>
     </div>
@@ -36,6 +38,10 @@
     export default {
         props: {
             title: {
+                type: String,
+                required: true,
+            },
+            channel_url: {
                 type: String,
                 required: true,
             },
