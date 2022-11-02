@@ -4,7 +4,7 @@
             <img src="~/static/images/entertainment_dp.jpg" alt="" class="channeldp mr-8 w-24 my-4 md:my-0">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">studio plus entertainment</h4>
         </a>
-        <a href="/music" target="_blank" class="musicstudio flex justify-start items-center flex-col md:flex-row w-full bg-gray-800 p-4 md:p-8 border border-none rounded-lg hover:cursor-pointer">
+        <a href="/songs" target="_blank" class="musicstudio flex justify-start items-center flex-col md:flex-row w-full bg-gray-800 p-4 md:p-8 border border-none rounded-lg hover:cursor-pointer">
             <img src="~/static/images/musicstudio_dp.jpg" alt="" class="channeldp mr-8 w-24 my-4 md:my-0">
             <h4 class="channel-name text-green-200 text-2xl font-bold capitalize">music studio</h4>
         </a>

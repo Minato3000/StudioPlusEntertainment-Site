@@ -26,13 +26,6 @@
                     tracking-wide
                     md:tracking-widest
                 ">{{ title }}</h4>
-                <p class="
-                    info-extra
-                    text-green-100
-                    capitalize
-                    text-md
-                    md:text-lg
-                ">99999 subscribers</p>
             </div>
         </div>
     </div>

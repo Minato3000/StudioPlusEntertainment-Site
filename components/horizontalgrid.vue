@@ -21,8 +21,8 @@
             overflow-x-auto
             overflow-y-hidden           
             ">
-            <div class="m-5 hover:cursor-pointer" v-for="detail in details" :click="redirect(detail)">
-                <p>{{detail.id.videoId}}</p>
+            <a :href="`https://www.youtube.com/watch?v=` + detail.id.videoId" class="m-5 block hover:cursor-pointer" v-for="detail in details" :key="detail.id.videoId">
+            
                 <img :src="detail.snippet.thumbnails.high.url" class="thumbnail" :alt="detail.snippet.title">
                 <div class="content w-full p-2 flex">
                     <div class="info flex flex-col">
@@ -32,7 +32,7 @@
                         detail.snippet.channelTitle }}</p>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </template>
@@ -55,9 +55,6 @@ export default {
         }
     },
     methods: {
-        redirect: function(detail) {
-            window.location = "https://www.youtube.com/watch?v=" + detail.id.videoId;
-        }
     },
     async fetch() {
         this.alldetails = await fetch(
@@ -66,7 +63,7 @@ export default {
                 channelId: this.channel_id,
                 order: 'viewCount',
                 part: 'snippet',
-                maxResults: 6,
+                maxResults: 10,
             })
         )
         .then(response => response.json())
