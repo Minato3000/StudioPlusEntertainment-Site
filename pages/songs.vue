@@ -27,7 +27,7 @@ export default {
     data() {
         return {
             channel_id: "UCiCR5fA6-Vk_RX8wgc9po2Q",
-            channel_url: "https://www.youtube.com/channel/UCRwPOGn9_gJY2Tx5x75-AeA",
+            channel_url: "https://www.youtube.com/channel/UCiCR5fA6-Vk_RX8wgc9po2Q",
             title: "music studio",
         }
     }
