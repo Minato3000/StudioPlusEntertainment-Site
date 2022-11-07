@@ -1,6 +1,6 @@
 <template>
 <footer class="text-center lg:text-left bg-gradient-to-t from-green-500 to-emerald-500 text-black" id="footer">
-    <div class="flex justify-center items-center text-center p-4 md:p-6 border-b border-green-600">
+    <div class="flex justify-center items-center text-center border-b border-green-600">
       <div class="flex align-center text-center inline-block">
         <h4 class="inline-block capitalize text-2xl md:text-3xl font-bold hover:cursor-pointer tracking-wide md:tracking-widest">{{ title }}</h4>
       </div>
